@@ -1,2 +1,1 @@
-# MrOnyszko
-Personal blog
+# Personal blog
