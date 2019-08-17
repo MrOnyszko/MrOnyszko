@@ -1,118 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Onyszko</title>
-    <style type="text/css">
-        html {
-            background: url(./legzira.jpg) no-repeat center center;
-            min-height: 100%;
-            background-size: cover;
-            overflow: hidden;
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Onyszko</title>
+  <style type="text/css">
+    html {
+      min-height: 100%;
+      background-size: cover;
+      overflow: hidden;
 
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            cursor: default;
-            font-family: 'Ubuntu', sans-serif;
-        }
-        body {
-            min-height: 100%;
-        }
-        .content {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            position: absolute;
-            top: 46%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .heading {
-            color: white;
-            font-size: 90px;
-        }
-        .list-inline li {
-            display: inline-block;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-        a, a span {
-          -webkit-transition: color .3s ease-in-out;
-          -moz-transition: color .3s ease-in-out;
-          -o-transition: color .3s ease-in-out;
-          transition: color .3s ease-in-out;
-          text-decoration: none;
-        }
-        a {
-          color: #48b983;
-        }
-        a:hover {
-          color: #40a776;
-        }
-        ul, ol {
-          padding-left: 25px;
-        }
-        body h1 a {
-          color: #eee;
-        }
-        body h1 a:hover {
-          text-decoration: none;
-        }
-        body ul {
-          margin: 25px 0 0;
-        }
-        body ul li {
-          padding-bottom: 20px;
-        }
-        body ul a {
-          color: #ddd;
-          font-weight: 700;
-        }
-        body ul a span {
-          color: #888;
-          font-weight: 300;
-          padding-right: 2px;
-        }
-        body ul a:hover {
-          color: #48b983;
-          text-decoration: none;
-        }
-        body ul a:hover span {
-          color: #1b8057;
-        }
-    </style>
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      cursor: default;
+      font-family: 'Ubuntu', sans-serif;
+    }
 
-    <meta name="og:type" content="website">
-    <meta name="og:title" content="onyszko.pl">
-    <meta name="og:description" content="Blog posts, GitHub, and more.">
-    <meta name="og:site_name" content="Onyszko">
-    <meta name="og:url" content="https://onyszko.pl">
-    <meta name="og:image" content="http://www.gravatar.com/avatar/a653e5cf1da330d9236cb4b904ab3400?s=80">
+    body {
+      margin: 0;
+      min-height: 100%;
+    }
 
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@MrOnyszko">
-    <meta name="twitter:domain" content="onyszko.pl">
-    <meta name="twitter:title" content="onyszko.pl">
-    <meta name="twitter:description" content="Blog posts, GitHub, and more.">
-    <meta name="twitter:image" content="http://www.gravatar.com/avatar/a653e5cf1da330d9236cb4b904ab3400?s=80">
-    <meta name="twitter:url" content="http://onyszko.pl"">
+    .content {
+      background: rgba(0, 0, 0, 0.2);
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .heading {
+      color: white;
+      font-size: 90px;
+    }
+
+    .list-inline li {
+      display: inline-block;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    a, a span {
+      -webkit-transition: color .3s ease-in-out;
+      -moz-transition: color .3s ease-in-out;
+      -o-transition: color .3s ease-in-out;
+      transition: color .3s ease-in-out;
+      text-decoration: none;
+    }
+
+    a {
+      color: #48b983;
+    }
+
+    a:hover {
+      color: #40a776;
+    }
+
+    ul, ol {
+      padding-left: 25px;
+    }
+
+    body h1 a {
+      color: #eee;
+    }
+
+    body h1 a:hover {
+      text-decoration: none;
+    }
+
+    body ul {
+      margin: 25px 0 0;
+    }
+
+    body ul li {
+      padding-bottom: 20px;
+    }
+
+    body ul a {
+      color: #ddd;
+      font-weight: 700;
+    }
+
+    body ul a span {
+      color: #888;
+      font-weight: 300;
+      padding-right: 2px;
+    }
+
+    body ul a:hover {
+      color: #48b983;
+      text-decoration: none;
+    }
+
+    body ul a:hover span {
+      color: #1b8057;
+    }
+
+    .slideshow img {
+      min-height:90%;
+      min-width:100%;
+      height:auto;
+      width:auto;
+      position:absolute;
+      top:-100%; bottom:-100%;
+      left:-100%; right:-100%;
+      margin:auto;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 52%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+  </style>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+
+  <meta name="og:type" content="website">
+  <meta name="og:title" content="onyszko.pl">
+  <meta name="og:description" content="Personal website">
+  <meta name="og:site_name" content="Onyszko">
+  <meta name="og:url" content="https://onyszko.pl">
+  <meta name="og:image" content="http://www.gravatar.com/avatar/a653e5cf1da330d9236cb4b904ab3400?s=80">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@MrOnyszko">
+  <meta name="twitter:domain" content="onyszko.pl">
+  <meta name="twitter:title" content="onyszko.pl">
+  <meta name="twitter:description" content="Personal website">
+  <meta name="twitter:image" content="http://www.gravatar.com/avatar/a653e5cf1da330d9236cb4b904ab3400?s=80">
+  <meta name="twitter:url" content="http://onyszko.pl">
 
 </head>
 <body>
-<div class="content">
-<span class="heading">Onyszko</span>
- <ul class="list-inline">
-  <li><a href="https://github.com/MrOnyszko"><span>fork</span>GitHub</a></li>
-  <li><a href="https://twitter.com/MrOnyszko"><span>mention</span>Twitter</a></li>
-  <li><a href="https://instagram.com/mronyszko"><span>follow</span>Instagram</a></li>                                             
- </ul>
+<div class="slideshow">
+  <img class="slides" src="images/legzira.jpg" alt="legzira">
+  <img class="slides" src="images/demons.png" alt="art">
+  <img class="slides" src="images/circular.png" alt="art">
+  <img class="slides" src="images/pencil.png" alt="art">
+  <img class="slides" src="images/bears.png" alt="art">
+  <img class="slides" src="images/grayish.png" alt="art">
+  <img class="slides" src="images/ara.png" alt="art">
+  <img class="slides" src="images/frog.png" alt="art">
+  <img class="slides" src="images/birds.png" alt="art">
+  <img class="slides" src="images/graybg.png" alt="art">
+  <img class="slides" src="images/hands.png" alt="art">
+  <img class="slides" src="images/aku.png" alt="art">
 </div>
+
+<div class="content">
+  <span class="heading">Onyszko</span>
+  <ul class="list-inline">
+    <li><a href="https://github.com/MrOnyszko"><span>fork</span>GitHub</a></li>
+    <li><a href="https://twitter.com/MrOnyszko"><span>mention</span>Twitter</a></li>
+    <li><a href="https://instagram.com/mronyszko"><span>follow</span>Instagram</a></li>
+  </ul>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+
+<script>
+    let slideIndex = Math.floor(Math.random() * 13) + 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        let i;
+        const slides = document.getElementsByClassName("slides");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+</script>
+
 </body>
 </html>
