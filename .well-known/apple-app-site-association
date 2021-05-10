@@ -1,0 +1,14 @@
+{
+    "applinks": {
+        "apps": [],
+        "appclips": {
+            "apps": ["8C3MRTNM83.com.deviniti.lafet.clip"]
+        },
+        "details": [
+            {
+                "appID": "8C3MRTNM83.com.deviniti.lafet",
+                "paths": [ "*" ]
+            }
+        ]
+    }
+}
