@@ -2,7 +2,7 @@
 <head>
 <link href=https://gmpg.org/xfn/11 rel=profile>
 <meta charset=utf-8>
-<meta name=generator content="Hugo 0.86.1">
+<meta name=generator content="Hugo 0.87.0">
 <meta name=viewport content="width=device-width,initial-scale=1">
 <title>How I Use Anki &#183; Onyszko</title>
 <meta name=description content>
@@ -35,8 +35,113 @@ This is collection of personal notes
 <main class="content container">
 <div class=post>
 <h1>How I Use Anki</h1>
-<time datetime=2021-08-23T19:54:50+0200 class=post-date>Mon, Aug 23, 2021</time>
-<p>Soon&mldr;</p>
+<time datetime=2021-08-30T16:44:00+0200 class=post-date>Mon, Aug 30, 2021</time>
+<p>Getting started with Anki can be a daunting task. This software isn&rsquo;t well-designed in terms of usability. I will try shortly explain to you how you could configure Anki. The default configuration of Anki isn&rsquo;t optimal for learning, and you shouldn&rsquo;t be afraid of tweaking it. Sometimes it even makes learning harder.</p>
+<p>Let&rsquo;s start with key concepts. More information you will find in the <a href=https://docs.ankiweb.net/getting-started.html>manual</a>.</p>
+<h3 id=cards>Cards</h3>
+<p>A card in Anki is a representation of a physical paper flashcard.</p>
+<blockquote>
+<p>A card can be added to the deck only, and a card has a so-called note type, and the note type has fields.</p>
+</blockquote>
+<h3 id=decks>Decks</h3>
+<p>A deck is a group of cards. You can create a deck by simply clicking on the <strong>Create Deck</strong> button on the bottom.</p>
+<blockquote>
+<p>A deck can have other decks inside.</p>
+</blockquote>
+<p><strong>Create following decks:</strong></p>
+<ul>
+<li>History — it will be used for learning flashcards</li>
+<li>History Reading — it will be used for reading</li>
+</ul>
+<h3 id=note-types>Note Types</h3>
+<p>A note type describes what information you can have in your card using fields. For example, Basic note type has two fields, <strong>Front</strong> and <strong>Back</strong>. Usually in the <strong>Front</strong> field you put your question and in the <strong>Back</strong> the answer.</p>
+<blockquote>
+<p>A note type can have multiple fields.
+A field can have any information.
+A note type can have multiple card types that have different layouts.
+The layout can be changed.
+The format of the layout is HTML & CSS format.</p>
+</blockquote>
+<h3 id=now-we-can-go-through-the-process-of-creation-of-custom-note-types>Now we can go through the process of creation of custom note types.</h3>
+<p>Follow instructions written below.</p>
+<p><strong>Create three custom note types:</strong></p>
+<ul>
+<li>Reading 1.0</li>
+<li>Knowledge 1.0</li>
+<li>Knowledge Cloze 1.0</li>
+</ul>
+<p><strong>Let&rsquo;s create “Knowledge 1.0” note type:</strong></p>
+<ol>
+<li>Click <strong>Tools</strong></li>
+<li>Click <strong>Manage Note Types</strong></li>
+<li>Click <strong>Add</strong></li>
+<li>Select <strong>Clone: Basic</strong></li>
+<li>Click <strong>OK</strong></li>
+<li>Type “Knowledge 1.0”</li>
+<li>Click <strong>OK</strong></li>
+</ol>
+<p><strong>Let&rsquo;s add custom fields to “Knowledge 1.0” note type:</strong></p>
+<ol>
+<li>Select “Knowledge 1.0”</li>
+<li>Click <strong>Fields</strong></li>
+<li>Click <strong>Add</strong></li>
+<li>Type “Source”</li>
+<li>Click <strong>OK</strong></li>
+<li>Click <strong>Add</strong></li>
+<li>Type “Date”</li>
+<li>Click <strong>OK</strong></li>
+<li>Click <strong>Save</strong></li>
+</ol>
+<p>Create “Knowledge Cloze 1.0” note type by repeating steps above with one change in step 4. Select <strong>Clone: Cloze.</strong></p>
+<h3 id=preferences>Preferences</h3>
+<p>For more info about preferences, please read <a href=https://docs.ankiweb.net/#/preferences>manual</a>.</p>
+<p>Go to Anki → <strong>Preferences → Basic</strong> and make sure you have set:</p>
+<ul>
+<li>Check: “Show play buttons on cards with audio”</li>
+<li>Check: “Interrupt current audio when answering”</li>
+</ul>
+<p>Now still in <strong>Preferences,</strong> go to <strong>Scheduling</strong> and make sure you have set:</p>
+<ul>
+<li>Check: “Show next review time above answer buttons”</li>
+<li>Check: “Anki 2.1 scheduler (beta)”</li>
+<li>Choose from drop down: “Show new cards after reviews”</li>
+<li>Type: Next day starts → 3 hours past midnight</li>
+<li>Type: Learn ahead limit → 0 mins or 60 minutes if you don&rsquo;t want to have cards delayed in the same day</li>
+<li>Type: Timebox time limit → 0 mins</li>
+</ul>
+<h3 id=deck-options>Deck options</h3>
+<p>For more info about deck options, please read <a href="https://docs.ankiweb.net/#/deck-options?id=deck-options">manual</a>.</p>
+<p>You can adjust deck options by clicking on cogwheel and then on options. Create an <strong>option group</strong> by clicking on <strong>Manage → Add.</strong> Name it “History”. It will be used for all history related learning decks.</p>
+<p>Under <strong>New Cards</strong> tab, make sure you have set:</p>
+<ul>
+<li>Steps (in minutes): 15 1440 8640 or 15 1440 4320</li>
+<li>Order: Show new cards in order added</li>
+<li>New cards/day: 30 or any other number comfortable for you</li>
+<li>Graduating interval: 15 days</li>
+<li>Easy interval: 20 days</li>
+<li>Starting easy: 250%</li>
+</ul>
+<p>Under <strong>Reviews</strong> tab:</p>
+<ul>
+<li>Maximum reviews/day: 9999</li>
+<li>Easy bonus: 130%</li>
+<li>Interval modifier: 100%</li>
+<li>Maximum interval: 182 days</li>
+<li>Hard interval: 120%</li>
+</ul>
+<p>Under <strong>Lapses</strong> tab:</p>
+<ul>
+<li>Steps (in minutes): 20</li>
+<li>New interval: 70% — this setting will prevent resetting card interval after “again” answer</li>
+<li>Minimum interval: 2 days</li>
+<li>Leech threshold: 8 lapses</li>
+<li>Leech action: Tag Only</li>
+</ul>
+<p>By selecting existing group e.g., “History” and clicking <strong>Manage → Add</strong> we can create a copy of option group with new name. Name it “History Reading” and change “New cards/day” option from 30 to 3, and “Steps (in minutes)” to 15 4320 8640.</p>
+<p>The end. It is a lot of options and to set before learning. You can watch video as well. I present how to set up everything and how to add flashcards.</p>
+<h3 id=video>Video</h3>
+<p>You can watch the video when I show how to configure Anki and how to use it.</p>
+<p><a href=https://youtu.be/TfkW7RPz3tw>Youtube Link</a></p>
 </div>
 </main>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VRE5KD7DFL"></script>
