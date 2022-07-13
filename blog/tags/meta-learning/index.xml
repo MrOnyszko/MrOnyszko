@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>meta-learning on Onyszko</title><link>https://onyszko.pl/blog/tags/meta-learning/</link><description>Recent content in meta-learning on Onyszko</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 04 Sep 2021 19:04:23 +0200</lastBuildDate><atom:link href="https://onyszko.pl/blog/tags/meta-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Approach Learning «Flutter»?</title><link>https://onyszko.pl/blog/posts/how-to-approach-learning-flutter/</link><pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate><guid>https://onyszko.pl/blog/posts/how-to-approach-learning-flutter/</guid><description>In this post, I will show, how we possibly could learn a software development kit. Using Flutter as an example.</description></item><item><title>How I Read Documentation and Grammar Books</title><link>https://onyszko.pl/blog/posts/how-i-read-documentation-and-grammar-books/</link><pubDate>Mon, 23 Aug 2021 19:54:50 +0200</pubDate><guid>https://onyszko.pl/blog/posts/how-i-read-documentation-and-grammar-books/</guid><description>Boring technical texts are hard to read. Albeit, they contain information that is necessary to know for many reasons.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meta-learning on Onyszko</title>
+    <link>https://onyszko.pl/blog/tags/meta-learning/</link>
+    <description>Recent content in meta-learning on Onyszko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Sep 2021 19:04:23 +0200</lastBuildDate><atom:link href="https://onyszko.pl/blog/tags/meta-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Approach Learning «Flutter»?</title>
+      <link>https://onyszko.pl/blog/posts/how-to-approach-learning-flutter/</link>
+      <pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/posts/how-to-approach-learning-flutter/</guid>
+      <description>In this post, I will show, how we possibly could learn a software development kit. Using Flutter as an example.</description>
+    </item>
+    
+    <item>
+      <title>How I Read Documentation and Grammar Books</title>
+      <link>https://onyszko.pl/blog/posts/how-i-read-documentation-and-grammar-books/</link>
+      <pubDate>Mon, 23 Aug 2021 19:54:50 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/posts/how-i-read-documentation-and-grammar-books/</guid>
+      <description>Boring technical texts are hard to read. Albeit, they contain information that is necessary to know for many reasons.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,1 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Onyszko</title><link>https://onyszko.pl/blog/tags/</link><description>Recent content in Tags on Onyszko</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 04 Sep 2021 19:04:23 +0200</lastBuildDate><atom:link href="https://onyszko.pl/blog/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>anki</title><link>https://onyszko.pl/blog/tags/anki/</link><pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate><guid>https://onyszko.pl/blog/tags/anki/</guid><description/></item><item><title>dart</title><link>https://onyszko.pl/blog/tags/dart/</link><pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate><guid>https://onyszko.pl/blog/tags/dart/</guid><description/></item><item><title>flutter</title><link>https://onyszko.pl/blog/tags/flutter/</link><pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate><guid>https://onyszko.pl/blog/tags/flutter/</guid><description/></item><item><title>incremental reading</title><link>https://onyszko.pl/blog/tags/incremental-reading/</link><pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate><guid>https://onyszko.pl/blog/tags/incremental-reading/</guid><description/></item><item><title>learning</title><link>https://onyszko.pl/blog/tags/learning/</link><pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate><guid>https://onyszko.pl/blog/tags/learning/</guid><description/></item><item><title>meta-learning</title><link>https://onyszko.pl/blog/tags/meta-learning/</link><pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate><guid>https://onyszko.pl/blog/tags/meta-learning/</guid><description/></item><item><title>programming</title><link>https://onyszko.pl/blog/tags/programming/</link><pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate><guid>https://onyszko.pl/blog/tags/programming/</guid><description/></item><item><title>problem solving</title><link>https://onyszko.pl/blog/tags/problem-solving/</link><pubDate>Sun, 01 Aug 2021 18:54:52 +0200</pubDate><guid>https://onyszko.pl/blog/tags/problem-solving/</guid><description/></item><item><title>writing</title><link>https://onyszko.pl/blog/tags/writing/</link><pubDate>Sun, 01 Aug 2021 18:54:52 +0200</pubDate><guid>https://onyszko.pl/blog/tags/writing/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Onyszko</title>
+    <link>https://onyszko.pl/blog/tags/</link>
+    <description>Recent content in Tags on Onyszko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jul 2022 10:19:42 +0200</lastBuildDate><atom:link href="https://onyszko.pl/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ideas</title>
+      <link>https://onyszko.pl/blog/tags/ideas/</link>
+      <pubDate>Wed, 13 Jul 2022 10:19:42 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/tags/ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://onyszko.pl/blog/tags/learning/</link>
+      <pubDate>Wed, 13 Jul 2022 10:19:42 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://onyszko.pl/blog/tags/programming/</link>
+      <pubDate>Wed, 13 Jul 2022 10:19:42 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anki</title>
+      <link>https://onyszko.pl/blog/tags/anki/</link>
+      <pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/tags/anki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dart</title>
+      <link>https://onyszko.pl/blog/tags/dart/</link>
+      <pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/tags/dart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flutter</title>
+      <link>https://onyszko.pl/blog/tags/flutter/</link>
+      <pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>incremental reading</title>
+      <link>https://onyszko.pl/blog/tags/incremental-reading/</link>
+      <pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/tags/incremental-reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meta-learning</title>
+      <link>https://onyszko.pl/blog/tags/meta-learning/</link>
+      <pubDate>Sat, 04 Sep 2021 19:04:23 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/tags/meta-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>problem solving</title>
+      <link>https://onyszko.pl/blog/tags/problem-solving/</link>
+      <pubDate>Sun, 01 Aug 2021 18:54:52 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/tags/problem-solving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>https://onyszko.pl/blog/tags/writing/</link>
+      <pubDate>Sun, 01 Aug 2021 18:54:52 +0200</pubDate>
+      
+      <guid>https://onyszko.pl/blog/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
