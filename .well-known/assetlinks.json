@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "pl.onyszko.dict",
+    "sha256_cert_fingerprints":
+    ["A1:2A:DD:7A:BA:09:66:9C:7A:80:C7:BA:CF:58:C7:69:C6:67:4C:33:AE:46:CA:D5:9E:A8:5D:2D:78:18:DF:A9"]
+  }
+}]
